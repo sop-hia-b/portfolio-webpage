@@ -500,7 +500,7 @@ footer {
 .profile-social{
     position: fixed;
     left: var(--profile-gap);
-    top: calc(80px + var(--profile-gap) + var(--profile-size) + 34px); /* moved down +12px (was +22px) */
+    top: calc(80px + var(--profile-gap) + var(--profile-size) + 34px);
     width: var(--profile-size);
     display: flex;
     justify-content: center;
@@ -616,4 +616,5 @@ footer {
         margin: 12px auto 0;
         padding: 16px;
     }
+
 }
